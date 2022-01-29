@@ -4148,7 +4148,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Button.Cnds.OnClicked,
 		C3.Plugins.Mouse.Cnds.OnClick,
 		C3.Plugins.Mouse.Cnds.IsOverObject,
-		C3.Plugins.Browser.Acts.GoToURL,
+		C3.Plugins.Browser.Acts.GoToURLWindow,
 		C3.Plugins.Button.Cnds.OnCreated,
 		C3.Plugins.Button.Acts.SetCSSStyle,
 		C3.Plugins.Mouse.Cnds.OnObjectClicked
@@ -4386,6 +4386,7 @@ self.C3_ExpressionFuncs = [
 		() => "Indices",
 		() => 5,
 		() => "https://fr.linkedin.com/in/joffrey-ziegeltrum-604166227",
+		() => "NewWindow",
 		() => "color",
 		() => "black",
 		() => "background-color",
